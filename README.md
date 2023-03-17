@@ -17,7 +17,7 @@ If I had more time I would've tried to:
   <li>Include a <code>toLowerCase</code> functionality</li>
   <li>Comment my <code>Converter</code> class</li>
   <li>Create my own <code>Exception</code> class</li>
-  <li>Factored the converter a bit more (i.e. created a <code>DecimalConverter</code> and a <code>NumeralConverter</code> class 
+  <li>Factored the converter a bit more (i.e. created a <code>DecimalConverter</code> and a <code>NumeralConverter</code> class) 
   
 
 
