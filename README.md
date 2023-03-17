@@ -2,7 +2,7 @@
 
 Here is my solution to the Roman Numerals challenge!
 
-I spent all the time I could on it, I took the whole 4 hours.
+I spent 4 hours coding.
 
 I have the working converter from decimals to numerals and numerals to decimals.
 
