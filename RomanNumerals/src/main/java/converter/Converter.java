@@ -1,12 +1,14 @@
+package converter;
+
 import java.security.InvalidParameterException;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class Main {
+public class Converter {
 
     public static void main(String args[]){
 
-        RomanNumeralConverter calculator = new RomanNumeralConverter();
+        converter.RomanNumeralConverter calculator = new converter.RomanNumeralConverter();
 
         System.out.println("----Welcome to the Roman Numeral Converter!----");
 

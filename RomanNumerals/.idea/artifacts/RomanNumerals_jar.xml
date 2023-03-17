@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RomanNumerals:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RomanNumerals_jar</output-path>
+    <root id="archive" name="RomanNumerals.jar">
+      <element id="module-output" name="RomanNumerals" />
+    </root>
+  </artifact>
+</component>
