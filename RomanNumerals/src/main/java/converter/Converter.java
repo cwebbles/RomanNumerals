@@ -6,13 +6,11 @@ import java.util.Scanner;
 
 public class Converter {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
-        converter.RomanNumeralConverter calculator = new converter.RomanNumeralConverter();
+        RomanNumeralConverter converter = new RomanNumeralConverter();
 
         System.out.println("----Welcome to the Roman Numeral Converter!----");
-
-
 
         Scanner scanner = new Scanner(System.in);
         String result = "";
@@ -23,11 +21,12 @@ public class Converter {
             System.out.println("- Decimal numbers must be between 1-3999");
             System.out.println("- Roman numerals must be valid");
             System.out.print("Enter here: ");
+
             boolean validRequest = false;
             while(!validRequest){
                 try{
                     String userInput = scanner.next();
-                    result = calculator.convert(userInput);
+                    result = converter.convert(userInput);
                     validRequest = true;
                 } catch(InvalidParameterException ex){
                     System.out.println(ex.getMessage());

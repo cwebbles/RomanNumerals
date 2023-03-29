@@ -60,6 +60,9 @@ class RomanNumeralConverterTest {
         test = converter.numeralToDecimal("I");
         assertEquals("1", test);
 
+        test = converter.numeralToDecimal("III");
+        assertEquals("3", test);
+
         test = converter.numeralToDecimal("MMMCMXCIX");
         assertEquals("3999", test);
     }

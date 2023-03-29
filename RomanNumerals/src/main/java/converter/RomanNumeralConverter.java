@@ -11,7 +11,7 @@ public class RomanNumeralConverter {
     /**
      * Class to hold numeral data (i.e. the string of the numeral and the value)
      */
-    private class Numeral{
+    private static class Numeral{
 
         public Numeral(String num, int val) {
             this.numeral = num;
